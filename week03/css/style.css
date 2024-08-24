@@ -232,7 +232,7 @@
     }
 
     .banner-subtitle{
-        font-style: 16px;
+        font-size: 16px;
     }
 }
 
@@ -462,7 +462,7 @@
 
 .contact-form-input {
     display: block;
-    width: 100%;
+    width: 90%;
     background: var(--bg-light);
     outline: 0;
     border: solid 1px black;
