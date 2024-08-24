@@ -1,7 +1,7 @@
 /* base 基本設定 (將reset和base分開，可讓style更簡潔更容易維護)*/
 
 /*盒模型*/
-*::before, *::after{
+*::before, *::after {
     box-sizing: border-box;
     /*outline: solid 1px black; */ /*線外框*/
 }

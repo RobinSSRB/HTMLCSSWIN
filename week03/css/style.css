@@ -1,4 +1,6 @@
 
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
 
 @import "CSS-reset.css"; /*引入cssReset*/
 @import "Base.css"; /*引入基本設定*/ 
@@ -147,8 +149,15 @@
     padding:  0 24px;
 }
 
+/*在寬度992px以下，修正成下方設定*/
+@media (max-width: 992px) {
+    .footer .social-list a {
+      padding: 0 8px;
+    }
+  }
 
-/*在寬度766px以下，修正成下方設定*/
+
+/*在寬度767px以下，修正成下方設定*/
 @media (max-width: 767px) {
     
     .footer .nav {
@@ -282,9 +291,9 @@
 
 
 /*經典系列設定*/
-.classic{
+/*.classic{
     width:100%;
-}
+}*/
 
 .classic-list{ /*經典鏡框圖片外框區*/
     display: flex;
@@ -306,6 +315,7 @@
         flex-wrap: wrap;
     }
 
+    
     .classic-list .card {
         max-width: 336px;
     }
